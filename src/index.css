@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --navy: #071327;
+  --text: #a8b7ca;
+  --text-strong: #f4f7fb;
+  --mint: #7cedd1;
+  --coral: #ff9781;
+  --display: 'Space Grotesk', 'Segoe UI Variable Display', 'Segoe UI', sans-serif;
+  --body: 'DM Sans', 'Segoe UI Variable', 'Segoe UI', sans-serif;
+
+  color: var(--text);
+  background: var(--navy);
+  font-family: var(--body);
+  font-synthesis: none;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+a {
+  font-family: var(--body);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 5px;
+}
+
+::selection {
+  color: #06182a;
+  background: var(--mint);
+}
